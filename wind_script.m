@@ -1,13 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%% WIND FARM %%%%%%%
-%%% NEW AND RENEWABLE %%%
-%%%%%%% ENERGIES %%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%
 
-%%% CODE BY CARLOS PEREZ %%%
-
-%%% Function Windrose 
-%%% by Daniel Pereira
 
 clear; close all; clc;
 
@@ -15,19 +9,8 @@ clear; close all; clc;
 %% DATA AND PARAMETERS 
 % *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *
 
-N_wt = 8; % Number of Wind turbines
-
-PR_wt = 1.6; % Rated power of wind turbines (MW)
-
-Cost = 600; % Wind farm cost (eur/kW)
-
-H = 8.1; %Hub height
-
-rho_air = 1.225; % Air density kg/m3
 R = 287.05;
-V_tip = 70; % Tip speed (m/s)
 
-% performance = xlsread('performance.xls','A3:DL25');
 
 % Files with wind data
 filename_MERRA = "MERRA.dat";
